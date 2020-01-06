@@ -1,0 +1,34 @@
+*:not(pre > *) {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+.rise-enabled {
+  background-color: #ffffff !important;
+}
+
+.question {
+  color: #008;
+}
+
+.your_turn {
+  color: #e08414;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.rendered_html h1 {
+  color: rgba(0,0,0,.87);
+}
+
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+  font-size: 100%;
+}
+
+.container.slides .celltoolbar, .container.slides .hide-in-slideshow {
+  display: None ! important;
+}
+
+div.quick-fire > table img {
+  width: 15rem;
+  height: 15rem;
+}
